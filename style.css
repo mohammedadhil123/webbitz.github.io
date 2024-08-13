@@ -1,0 +1,1099 @@
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+  
+* {
+margin:0;
+padding: 0;
+text-decoration: none;
+list-style: none; 
+
+}
+body {
+    font-family: 'GT-Eesti',Arial, Helvetica, sans-serif;
+}
+header {
+    padding: 30px 0;
+}
+#header {
+
+}
+#header section.wrapper {
+    max-width: 1595px;
+    margin: 0 auto;
+}
+#header section.wrapper div.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header section.wrapper div.item div.left {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+#header section.wrapper div.item div.left h1 a img {
+
+}
+#header section.wrapper div.item div.left ul {
+    display: flex;
+    gap: 37px;
+    font-size: 20px;
+}
+#header section.wrapper div.item div.left ul a li {
+    color: #000;
+   
+}
+#header section.wrapper div.item div.right {
+    display: flex;
+}
+#header section.wrapper div.item div.right ul {
+    display: flex;
+    gap: 37px;
+    font-size: 20px;
+    align-items: center;
+}
+#header section.wrapper div.item div.right ul a li {
+    color: #000;
+   
+}
+#header section.wrapper div.item div.right ul li a button {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #ffe4da;
+    color: #ff794b;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 12px 
+    
+}
+/* <!--#header--> */
+#spotlight {
+    padding: 120px 0;
+}
+#spotlight section.wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+
+}
+#spotlight section.wrapper div.holder {
+    display: flex;
+    justify-content: space-between;
+}
+#spotlight section.wrapper div.holder div.left {
+
+}
+#spotlight section.wrapper div.holder div.left h1 {
+    font-size: 63px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#spotlight section.wrapper div.holder div.left p {
+    font-size: 23px;
+    margin-bottom: 40px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+#spotlight section.wrapper div.holder div.left form input {
+    padding: 22px 28px;
+    width: 388px;
+    font-size: 15px;
+    border-radius: 11px;
+    border: 1px solid;
+}
+#spotlight section.wrapper div.holder div.left form button {
+    padding: 24px 25px;
+    position: relative;
+    right: 117px;
+    top: -1px;
+    border: none;
+    border-radius: 12px;
+    background-color: #0056fb;
+    color: #fff;
+    font-weight: 700;
+}
+#spotlight section.wrapper div.holder div.right {
+    width: 769px;
+}
+#spotlight section.wrapper div.holder div.right img.home-hero {
+    width: 100%;
+}
+#spotlight section.wrapper div.holder div.right img.curve {
+    position: relative;
+    bottom: 506px;
+    left: 259px;
+}
+#spotlight section.wrapper div.holder div.right span.play img {
+    background-color: coral;
+    padding: 42px 46px;
+    position: relative;
+    bottom: 515px;
+    left: 268px;
+    border-radius: 50%;
+}
+div.bottom {
+   
+    margin-top: 120px;
+}
+div.bottom h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+
+}
+div.bottom ul {
+    display: flex;
+    gap: 93px;
+}
+div.bottom ul a li {
+
+}
+div.bottom ul a li img {
+
+}
+/* <!--#spotlight--> */
+section.wrapper {
+    max-width: 1350px;
+    margin: 0 auto;
+
+}
+#about {
+
+}
+#about section.wrapper div.holder {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 120px;
+}
+#about section.wrapper div.holder div.left-a {
+    width: 590px;
+}
+#about section.wrapper div.holder div.left-a img {
+    width: 100%;
+}
+#about section.wrapper div.holder div.right-a span {
+
+}
+#about section.wrapper div.holder div.right-a span img {
+    background: coral;
+    padding: 18px 17px;
+    border-radius: 26px;
+}
+#about section.wrapper div.holder div.right-a h1 {
+    margin-top: 20px;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+#about section.wrapper div.holder div.right-a p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#about section.wrapper div.holder div.right-a a button {
+    padding: 14px 23px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0056fb;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+#about section.wrapper div.holder div.right-a div.content {
+    color: grey;
+}
+#about section.wrapper div.holder div.right-a div.content div.null {
+    width: 52%;
+    border-top: 1px dotted;
+    color: grey;
+    
+}
+
+
+
+#about section.wrapper div.holder div.right-a div.content p {
+    font-weight: 100;
+    font-size: 17px;
+}
+#about section.wrapper div.holder div.right-a div.content h5 {
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+#about section.wrapper div.holder div.right-a div.content img {
+
+}
+/* <!--#about--> */
+#hollow {
+    background-color: #f8f8f8;
+    padding: 100px;
+}
+#hollow section.wrapper div.holder-two {
+    display: flex;
+    gap: 200px;
+    
+}
+
+#hollow section.wrapper div.holder-two {
+    display: flex;
+    gap: 200px;
+}
+#hollow section.wrapper div.holder-two div.left-a {
+    width: 575px;
+}
+#hollow section.wrapper div.holder-two div.left-a img {
+    width: 100%;
+}
+#hollow section.wrapper div.holder-two div.right-a span {
+
+}
+#hollow section.wrapper div.holder-two div.right-a span img {
+    background: #ffc836;
+    padding: 18px 17px;
+    border-radius: 23px;
+}
+#hollow section.wrapper div.holder-two div.right-a h1 {
+    margin-top: 20px;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+#hollow section.wrapper div.holder-two div.right-a p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#hollow section.wrapper div.holder-two div.right-a a button {
+    padding: 14px 23px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0056fb;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+#hollow section.wrapper div.holder-two div.right-a div.content div.null {
+    width: 52%;
+    border-top: 1px dotted;
+    color: grey;
+    
+}
+#hollow section.wrapper div.holder-two div.right-a div.content {
+    color: gray;
+}
+
+#hollow section.wrapper div.holder-two div.right-a div.content p {
+    font-weight: 100;
+    font-size: 17px;
+}
+#hollow section.wrapper div.holder-two div.right-a div.content h5 {
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+/* <!--#hollow--> */
+#about-two {
+    margin-top: 100px;
+}
+#about-two section.wrapper div.holder {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 120px;
+}
+#about-two section.wrapper div.holder div.left-a {
+    width: 590px;
+    margin-left: 67px;
+}
+#about-two section.wrapper div.holder div.left-a img {
+    width: 100%;
+}
+#about-two section.wrapper div.holder div.right-a span {
+
+}
+#about-two section.wrapper div.holder div.right-a span img {
+    background: #60da90;
+    padding: 18px 17px;
+    border-radius: 26px;
+}
+#about-two section.wrapper div.holder div.right-a h1 {
+    margin-top: 20px;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+#about-two section.wrapper div.holder div.right-a p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#about-two section.wrapper div.holder div.right-a a button {
+    padding: 14px 23px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0056fb;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+#about-two section.wrapper div.holder div.right-a div.content {
+    color: grey;
+}
+#about-two section.wrapper div.holder div.right-a div.content div.null {
+    width: 52%;
+    border-top: 1px dotted;
+    color: grey;
+    
+}
+#about-two section.wrapper div.holder div.right-a div.content p {
+    font-weight: 100;
+    font-size: 17px;
+}
+#about-two section.wrapper div.holder div.right-a div.content h5 {
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+#about-two section.wrapper div.holder div.right-a div.content img {
+
+}
+/* <!--#about-two--> */
+#function {
+    height: 75vh;
+
+}
+#function h2 {
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+div.brand {
+    display: flex;
+    justify-content: space-between;
+
+}
+div.brand div.items {
+    width: 389px;
+   
+}
+div.brand div.items div.card {
+    position: absolute;
+    width: 395px;
+}
+div.brand div.items img.img-a {
+    width: 100%;
+    border-radius: 10px
+}
+div.brand div.items img.img-b {
+    width: 40px;
+    position: relative;
+    bottom: 77px;
+    left: 9px;
+    background-color: #fff;
+    padding: 8px 35px;
+    border-radius: 11px;
+}
+div.brand div.items img.img-c {
+    position: relative;
+    bottom: 318px;
+    left: 208px;
+    background-color: #fff;
+    padding: 24px 26px;
+    border-radius: 42px;
+    width: 13px;
+}
+div.brand div.items img.img-hub {
+    width: 82px;
+    position: relative;
+    bottom: 79px;
+    left: 7px;
+    background-color: #fff;
+    padding: 14px 14px;
+    border-radius: 11px
+}  
+div.brand div.items img.img-hous {
+    width: 97px;
+    position: relative;
+    bottom: 81px;
+    left: 9px;
+    background-color: white;
+    padding: 17px 7px;
+    border-radius: 11px
+}
+div.brand div.items p {
+    position: relative;
+    top: 354px;
+    font-weight: 600;
+}
+/* <!--#function--> */
+
+#twoguys {
+    
+}
+#twoguys section.wrapper div.container {
+   display: flex;
+   justify-content: space-between;
+}
+div.container div.one {
+    
+}
+div.clair {
+  
+     
+}
+div.container div.one div.clair img {
+    border-radius: 8px;
+    width: 100%;
+}
+div.container div.one div.clair img.svg {
+    position: relative;
+    width: 42px;
+    background-color: #fff;
+    bottom: 57px;
+    left: 20px;
+    padding: 8px 26px;
+    border-radius: 9px;
+}
+div.container div.one div.clair img.svg-z {
+    position: relative;
+    width: 62px;
+    background-color: #fff;
+    bottom: 63px;
+    left: 20px;
+    padding: 14px 13px;
+    border-radius: 9px;
+}
+div.container div.one div.paragraph {
+
+}
+div.container div.one div.paragraph h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.3
+}
+div.container div.one div.paragraph h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+/* <!--#twoguys--> */
+#work {
+ margin-top:150px;
+ text-align: center;
+ background-color: #f8f8f8;
+}
+#work h1 { 
+    padding-top: 100px;
+    font-size: 47px;
+}
+div.mute {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 130px;
+}
+div.mute div.team {
+    border-right: 1px dotted;
+
+}
+div.mute div.team img {
+    width: 60%;
+}
+div.mute div.team h2 {
+    margin-top: 20px;
+}
+div.mute div.team p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+div.mute div.team-a {
+
+}
+div.mute div.team-a img {
+    width: 60%;
+}
+div.mute div.team-a h2 {
+    margin-top: 20px;
+}
+div.mute div.team-a p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+div.mute div.team-one {
+    height: 56vh;
+    border-right: 1px dotted gray;
+}
+div.mute div.team-one img {
+    width: 60%;
+}
+div.mute div.team-one p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+div.mute div.team-one h2 {
+    margin-top: 20px;
+}
+#work div.bottom {
+    margin: 0;
+    display: inline-block;
+    margin-top: 117px;
+    background: #d0dfff;
+    height: 9vh;
+    margin-bottom: 55px;
+    padding: 6px 43px;
+    border-radius: 8px;
+}
+#work div.bottom div.boots {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 14vh
+}
+#work div.bottom div.boots img {
+    position: absolute;
+    bottom: 119px;
+    left: -3px;
+    background: #fff;
+    padding: 15px 17px;
+    border-radius: 24px;
+}
+#work div.bottom div.boots h4 {
+
+}
+#work div.bottom div.boots a button {
+    position: relative;
+    bottom: 24px;
+    left: 20px;
+    padding: 16px 20px;
+    border-radius: 9px;
+    border: none;
+    background: #0056fb;
+    color: #fff;
+    font-weight: 600;
+}
+/* #work */
+
+#type {
+    text-align: center;
+    padding: 75px 0;
+    margin-bottom: 200px;
+}
+#type h1 {
+    font-size: 47px;
+    margin-bottom: 120px;
+}
+div.grouper {
+    
+    display: flex;
+    justify-content: space-between;
+}
+div.grouper div.one {
+    background-color: #d0dfff;
+    height: 66vh;    
+    border-radius: 7px;
+    width: 32%;
+}
+div.grouper div.one img.sss {
+    background: #fff;
+    margin-top: 65px;
+    padding: 20px 20px;
+    border-radius: 28px;
+}
+div.grouper div.one h2 {
+    margin-top: 20px;
+}
+div.grouper div.one p {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+div.grouper div.one a button {
+    margin-top: 20px;
+    padding: 14px 27px;
+    border: none;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #0056fb;
+}
+div.grouper div.one div.girls {
+    position: relative;
+    top: 64px;
+}
+div.grouper div.one div.girls img.soc {
+    width: 100%;
+}
+
+
+div.grouper div.two {
+    background-color: #fef4d7;
+    height: 66vh;    
+    border-radius: 7px;
+    width: 32%;
+}
+div.grouper div.two img.sss {
+    background: #fff;
+    margin-top: 65px;
+    padding: 20px 20px;
+    border-radius: 28px;
+}
+div.grouper div.two h2 {
+    margin-top: 20px;
+}
+div.grouper div.two p {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+div.grouper div.two a button {
+    margin-top: 20px;
+    padding: 14px 27px;
+    border: none;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffc836;
+}
+div.grouper div.two div.girls {
+    position: relative;
+    top: 64px;
+    left: 5px;
+}
+div.grouper div.two div.girls img.soc {
+    width: 96%;
+}
+div.grouper div.three {
+    background-color: #ffe4da;
+    height: 66vh;    
+    border-radius: 7px;
+    width: 32%;
+}
+div.grouper div.three img.sss {
+    background: #fff;
+    margin-top: 65px;
+    padding: 20px 13px;
+    border-radius: 22px;
+    width: 46px;
+}
+div.grouper div.three h2 {
+    margin-top: 20px;
+}
+div.grouper div.three p {
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+div.grouper div.three a button {
+    margin-top: 20px;
+    padding: 14px 27px;
+    border: none;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ff794b;
+}
+div.grouper div.three div.girls {
+    position: relative;
+    top: 64px;
+    
+}
+div.grouper div.three div.girls img.soc {
+    width: 100%;
+}
+/* #type */
+#advice {
+    padding: 120px 0;    
+}
+#advice section.wrapper h1 {
+    margin-bottom: 40px;
+    font-size: 47px;
+}
+#advice section.wrapper div.bont {
+    display: flex;
+    justify-content: space-between;
+}
+#advice section.wrapper div.bont div.onex {
+
+}
+#advice section.wrapper div.bont div.onex img {
+
+}
+#advice section.wrapper div.bont div.onex h6 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #0961fb;
+}
+#advice section.wrapper div.bont div.onex p {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+#advice section.wrapper div.bont div.onex a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: 600;
+}
+#advice section.wrapper div.bont div.twox {
+
+}
+#advice section.wrapper div.bont div.twox img {
+    width: 107%;
+}
+#advice section.wrapper div.bont div.twox h6 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+#advice section.wrapper div.bont div.twox p {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+#advice section.wrapper div.bont div.twox a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: 600;
+}
+#advice section.wrapper div.bont div.threex {
+
+}
+#advice section.wrapper div.bont div.threex img {
+    width: 102%;
+}
+#advice section.wrapper div.bont div.threex h6 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+#advice section.wrapper div.bont div.threex p {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+#advice section.wrapper div.bont div.threex a {
+    text-decoration: underline;
+    color: #000;
+    font-weight: 600;
+}
+#advice section.wrapper a button {
+    margin-top: 65px;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0961fb;
+}
+#advice section.wrapper a.owl {
+    display: flex;
+    justify-content: center;
+}
+/* <!--#advice--> */
+#fillup {
+    background-color: #000;
+    color: #fff;
+}
+div.bloomer {
+    display: flex;
+    justify-content: space-between;
+}
+div.bloomer div.lefter {
+
+}
+div.bloomer div.lefter h1 {
+    font-size: 47px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+div.bloomer div.lefter p.firstp {
+    color: gray;
+    margin-bottom: 20px;
+}
+div.bloomer div.lefter h3.secondp {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+div.bloomer div.lefter p.thirdp {
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+div.bloomer div.lefter p.fourthp {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+div.bloomer div.lefter h5.fivthp {
+    color: gray;
+    margin-bottom: 20px;
+}
+div.bloomer div.lefter span {
+    padding: 0px 82px;
+    border-bottom: 2px dotted gray;
+}
+div.bloomer div.lefter ul.lfor {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+div.bloomer div.lefter ul.lfor li img {
+    border-radius: 30px;
+}
+div.bloomer div.lefter ul.lfor li.im1 {
+    border: 2px solid coral;
+    border-radius: 79px;
+    width: 45px;
+    display: flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center
+}
+div.bloomer div.lefter ul.lfor li.im1 img {
+    border-radius: 45px;
+    width: 89%;
+}
+div.bloomer div.lefter ul.ul1 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+div.bloomer div.lefter ul.ul1 a li {
+
+}
+div.bloomer div.lefter ul.ul1 a li img {
+
+}
+
+div.bloomer div.righter {
+    background: #fff;
+    width: 641px;
+    margin-top: 74px;
+    height: 52vh;
+    border-radius: 6px;
+}
+div.bloomer div.righter h1 {
+    color: #000;
+    padding: 45px 72px 0;
+    font-size: 30px;
+}
+div.bloomer div.righter div.holdzone {
+    padding: 10px 71px 0;
+}
+div.bloomer div.righter div.holdzone form {
+    display: flex;
+    justify-content: space-between;
+}
+div.bloomer div.righter form ul.leftal {
+
+}
+div.bloomer div.righter form ul.leftal li {
+    margin-bottom: 10px;
+}
+div.bloomer div.righter form ul.leftal li input {
+    padding: 11px 24px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+div.bloomer div.righter form li input[type="text"] {
+
+}
+div.bloomer div.righter form li input[type="email"] {
+    
+}
+div.bloomer div.righter form ul.leftal li select {
+    padding: 11px;
+    width: 225px;
+    color: gray;
+}
+div.bloomer div.righter form ul.rightal {
+    
+}
+div.bloomer div.righter form ul.rightal li {
+    margin-bottom: 10px;
+}
+div.bloomer div.righter form ul.rightal li input {
+    padding: 11px 24px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+div.bloomer div.righter form ul.rightal li select {
+    padding: 11px;
+    width: 225px;
+    color: gray;
+}
+div.bloomer div.box {
+    position: relative;
+    display: flex;
+    align-items:first baseline;
+    color: gray;
+    gap: 13px;
+    margin-top: 13px;
+}
+div.bloomer div.box p a {
+    color: gray;
+    text-decoration: underline;
+}
+div.bloomer div.box button {
+    position: absolute;
+    top: 69px;
+    padding: 18px 196px;
+    border: none;
+    border-radius: 11px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0961fb;
+}
+/* <!--#fillup--> */
+footer {
+ margin-top: 120px;
+ height: 41vh;
+}
+footer section.wrapper div.thumbsup {
+    display: flex;
+    gap: 145px;
+}
+footer section.wrapper div.thumbsup div.left {
+
+}
+footer section.wrapper div.thumbsup div.left h3 {
+    font-size: 37px;
+    font-weight: 500;
+}
+footer section.wrapper div.thumbsup div.left ul.icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+}
+footer section.wrapper div.thumbsup div.left ul.icons a li {
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 11px;
+}
+footer section.wrapper div.thumbsup div.left ul.icons a li img {
+
+}
+footer section.wrapper div.thumbsup div.left ul.global {
+ margin-top: 40px;
+}
+footer section.wrapper div.thumbsup div.left ul.global li {
+
+}
+footer section.wrapper div.thumbsup div.left ul.global li.eee {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+footer section.wrapper div.thumbsup div.left ul.global li.eee span {
+    padding: 0px 17px 0px 3px 
+} 
+footer section.wrapper div.thumbsup div.left ul.global li img {
+
+}
+footer section.wrapper div.thumbsup div.right {
+    display: flex;
+    font-size: 18px;
+    gap: 70px;
+}
+footer section.wrapper div.thumbsup div.right ul.case1 {
+    line-height: 1.6;
+    font-weight: 500;
+
+}
+footer section.wrapper div.thumbsup div.right ul.case1 li h4 {
+    margin-bottom: 4px;
+}
+footer section.wrapper div.thumbsup div.right ul.case1 a li {
+
+}
+footer section.wrapper div.thumbsup div.right ul.case1 a li img {
+
+}
+footer section.wrapper div.thumbsup div.right ul.case2 {
+    line-height: 1.6;
+    font-weight: 500;
+}   
+footer section.wrapper div.thumbsup div.right ul.case2 li h4 {
+    margin-bottom: 4px;
+} 
+footer section.wrapper div.thumbsup div.right ul.case2 li {
+
+} 
+footer section.wrapper div.thumbsup div.right ul.case3 {
+    line-height: 1.6;
+    font-weight: 500;
+}
+footer section.wrapper div.thumbsup div.right ul.case3 li h4 {
+    margin-bottom: 4px;
+}   
+footer section.wrapper div.thumbsup div.right ul.case3 li {
+
+}
+footer section.wrapper div.thumbsup div.right ul.case3 li.price {
+    font-weight: 500;
+}
+footer section.wrapper div.thumbsup div.right ul.case4 {
+    line-height: 1.6;
+    font-weight: 500;
+}
+footer section.wrapper div.thumbsup div.right ul.case4 li h4 {
+    margin-bottom: 4px;
+}
+footer section.wrapper div.thumbsup div.right ul.case4 li {
+
+}
